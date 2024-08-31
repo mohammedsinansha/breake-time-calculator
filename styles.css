@@ -1,0 +1,105 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f7f8fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 400px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+input[type="time"], input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.add-break-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.add-break-btn:hover {
+    background-color: #0056b3;
+}
+
+.calculate-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.calculate-btn:hover {
+    background-color: #218838;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.result.green {
+    background-color: #28a745;
+    color: white;
+}
+
+.result.orange {
+    background-color: #ff9800;
+    color: white;
+}
+
+.result.red {
+    background-color: #dc3545;
+    color: white;
+}
+
+.break-input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.break-input input[type="number"] {
+    flex: 1;
+}
+
+.break-input button {
+    margin-left: 10px;
+    background-color: #dc3545;
+    color: white;
+}
+
+.break-input button:hover {
+    background-color: #c82333;
+}
